@@ -1,11 +1,11 @@
 class Tarefa {
-  String name;  
-  Date date;
-  bool isCompleted;
+  String? name;  
+  DateTime? dateTime;
+  bool? isCompleted;
 
   Tarefa(String name) {
     this.name = name;
-    this.date = DateTime.now();
+    this.dateTime = DateTime.now();
     this.isCompleted = false;
   }
 }
